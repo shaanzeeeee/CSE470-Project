@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-image-signup {
+  width: 26%;
+  position: absolute;
+  bottom: 62%;
+  right: 76%;
+}
+
+.signup-image {
+  width: 35%;
+  position: absolute;
+  left: 58%;
+  top: 25%;
+}
+
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  right: 65%;
+  top: 8%;
+  width: 25%;
+}
+
+.title {
+  font-size: 2.2rem;
+  color: #acacac;
+  margin-bottom: 10px;
+  margin-right: 14%;
+}
+
+.signup-form {
+    max-width: 380px;
+    width: 100%;
+  }
+  
+  .input-field-1,
+  .input-field-2 {
+    position: relative;
+    margin: 10px 0;
+    color: #acacac;
+  }
+  
+  .input-field-1 i,
+  .input-field-2 i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .input-field-1 input,
+  .input-field-2 input {
+    width: calc(100% - 30px); /* Adjust the padding to accommodate the icon */
+    padding: 14px;
+    padding-left: 34px; /* Adjust the padding to accommodate the icon */
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 100px; /* Rounded input boxes */
+    margin-top: 3px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    color: #acacac; /* Set text color to #acacac */
+  }
+  
+  .input-field-1 input::placeholder,
+  .input-field-2 input::placeholder {
+    color: #acacac; /* Set placeholder text color */
+    font-size: 0.99rem;
+    padding-left: 7px;
+
+  }
+  
+  .signup-button {
+    width: 150px;
+    background-color: #00bfff;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+    position: absolute;
+    left: 23%;
+  }
+  
+  .signup-button:hover {
+    background-color: #00FFFF;
+  }
+  
+
+.already-user {
+  text-align: center;
+  position: absolute;
+  bottom: 70%;
+  left: 43rem;
+  margin: 5% 13%;
+  color: #acacac;
+  padding-top: 2%;
+}
+
+.already-user p {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0%;
+  
+}
+
+.already-user button {
+  width: 150px;
+  background-color: #00bfff;
+  border: none;
+  outline: none;
+  height: 49px;
+  border-radius: 49px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 10px 80px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.already-user button:hover {
+  background-color: #00FFFF;
+}
+
+.heart{
+  width: 4.5%;
+  position: absolute;
+  top: 34%;
+  right: 92%;
+  color: #acacac;
+}
+
+.envelope {
+  width: 4.5%;
+  position: absolute;
+  top: 34%;
+  right: 92%;
+  color: #acacac;
+}
+
+.lock {
+  width: 3.7%;
+  position: absolute;
+  top: 34%;
+  right: 92%;
+  color: #acacac;
+}
+
+.error-message{
+  position: absolute;
+  top: 35rem;
+  left: 4rem;
+}

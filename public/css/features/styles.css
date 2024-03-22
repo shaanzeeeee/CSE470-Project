@@ -1,0 +1,158 @@
+/* Features.css */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body, label, button {
+  color: #acacac;
+}
+
+h5 {
+  color: darkolivegreen;
+  font-size: 1rem;
+}
+
+.chat-container {
+  max-width: 600px;
+  margin: 70px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styles */
+h2 {
+  font-weight: bold;
+  color: #acacac;
+  margin-bottom: 10px;
+}
+
+/* Section separator */
+.chat-section {
+  border-bottom: 2px solid #00bfff; /* Updated border style and color */
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.chat-input {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* New styles for height and weight bars in the same line */
+.preferences label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Adjust spacing between checkboxes */
+.preferences input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+/* New styles for checkboxes in the same line */
+.chat-input label.checkbox-group {
+  display: flex;
+  flex-wrap: wrap; /* Allow checkboxes to wrap to the next line if necessary */
+  margin-bottom: 20px; /* Increased margin for better separation */
+}
+
+/* New styles for checkboxes */
+input[type="checkbox"] {
+  margin-right: 8px; /* Increased spacing between checkboxes */
+}
+
+/* New styles for the target part in the same line */
+.chat-input label.target-group {
+  display: flex;
+  justify-content: space-between; /* Added space between target checkboxes */
+  margin-bottom: 20px; /* Increased margin for better separation */
+}
+
+/* Button styles */
+button {
+  background-color: #00bfff;
+  color: #fff;
+  padding: 12px; /* Increased padding for a more substantial button */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+  border-radius: 30px;
+}
+
+button:hover {
+  background-color: #00FFFF;
+}
+
+/* Medium size input prompt for user input */
+textarea {
+  color: #acacac;
+  width: 100%;
+  padding: 12px 1px; /* Increased padding for better input appearance */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* New styles for the generate button at last */
+.chat-input button {
+  width: 100%;
+}
+
+.chat-response {
+  font-size: 1rem;
+  padding: 20px; /* Increased padding for better response appearance */
+  background-color: white;
+  border: 2px solid #00bfff; /* Updated border style and color */
+  border-radius: 10px;
+  word-wrap: break-word;
+  animation: fadeIn 0.5s ease;
+  margin-bottom: 20px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.loader {
+  color: #00bfff;
+}
+
+/* Additional styling for gender and activity sections */
+.bmi, .gender, .activity, .preferences, .target {
+  margin-bottom: 30px; /* Increased margin for better separation */
+  padding-bottom: 20px;
+  border-bottom: 2px solid #00bfff; /* Updated border style and color */
+}
+
+/* Adjusted margins for specific inputs */
+.target .input1 {
+  margin-right: 8px;
+}
+
+.target .input2 {
+  margin-left: 35px;
+}
+
+.gender .input2 {
+  margin-left: 20px;
+}
+
+.activity .input2 {
+  margin-left: 19px;
+}
+
+.activity .input3 {
+  margin-left: 19px;
+}

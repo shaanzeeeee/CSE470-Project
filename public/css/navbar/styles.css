@@ -1,0 +1,62 @@
+/* Navbar.css */
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-container {
+  background-color: white; /* Navbar container background color */
+  padding: 10px; /* Padding for the navbar container */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20rem;
+  position: absolute;
+  right: 77rem;
+  bottom: 30rem; /* Adjust the logo width as needed */
+}
+
+.navbar-links {
+  margin-right: 1.4rem;
+  font-weight: 500;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-end;
+  align-items: center; /* Align items vertically in the center */
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #00bfff; /* Font text color */
+  font-size: 1.2em; /* Font size of the navbar text */
+  transition: 0.5s;
+}
+
+.navbar-links a:hover {
+  color:#00FFFF;
+}
+
+.sign-out {
+  /* Increase specificity */
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 50px; /* Adjust the radius to make it more circular */
+  padding: 10px 20px; /* Adjust padding as needed */
+  color: white !important; /* Font text color */
+  background-color: #00bfff;; /* Background color */
+  display: inline-block; /* Make sure it respects the padding and border-radius */
+  transition: 0.5s;
+}
+
+.sign-out:hover {
+  background-color: #00FFFF !important;
+}
