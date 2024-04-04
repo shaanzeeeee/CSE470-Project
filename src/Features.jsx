@@ -63,11 +63,11 @@ const Features = () => {
   return (
     <div>
       <Navbar />
-      {/* Link tag for CSS (place it in the head of your HTML document) */}
+      {}
       <link rel="stylesheet" type="text/css" href="/css/features/styles.css" />
       <div className="chat-container">
         <h2>Generate Your Personalized Diet:</h2>
-        {/* BMI Calculator */}
+        {/* BMI Calculator (Done by Munib)*/}
         <div className="chat-input">
           <div className="bmi">
             <label className="height">
@@ -93,7 +93,7 @@ const Features = () => {
             </label>
           </div>
 
-          {/* Gender */}
+          {/* Gender (Done by Munib) */}
           <div className="gender">
             <label>
               <h5> Gender </h5>
@@ -116,7 +116,7 @@ const Features = () => {
             </label>
           </div>
 
-          {/* Activity-Level */}
+          {/* Activity-Level (Done by Mamsad)*/}
           <div className="activity">
             <label>
               <h5> Activity Level </h5>
@@ -148,7 +148,7 @@ const Features = () => {
           </div>
         </div>
 
-        {/* Dietary Preferences */}
+        {/* Dietary Preferences (Done by Nafiul)*/}
         <div className="chat-input">
           <div className="preferences">
             <h5>Dietary Preferences:</h5>
@@ -185,7 +185,7 @@ const Features = () => {
           </div>
         </div>
 
-        {/* Target */}
+        {/* Target (Done by Nafiul)*/}
         <div className="chat-input">
           <div className="target">
             <label>
@@ -210,7 +210,7 @@ const Features = () => {
           </div>
         </div>
 
-        {/* User Input Prompt */}
+        {/* User Input Prompt (Done by Shaan)*/}
         <div className="chat-input">
           <label>
             <h5> Input Prompt:</h5>
@@ -222,7 +222,7 @@ const Features = () => {
           </label>
         </div>
 
-        {/* Generate Button */}
+        {/* Generate Button (Done by mamsad)*/}
         <div className="chat-input">
           <button onClick={handleGenerateContent}>Generate</button>
         </div>
