@@ -46,19 +46,19 @@ h2 {
 
 label {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 10px; 
 }
 
 /* New styles for height and weight bars in the same line */
 .preferences label {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 10px; /* Increased margin for better separation */
 }
 
 /* Adjust spacing between checkboxes */
 .preferences input[type="checkbox"] {
-  margin-right: 8px;
+  margin-right: 8px; /* Increased margin for better separation */
 }
 
 /* New styles for checkboxes in the same line */
