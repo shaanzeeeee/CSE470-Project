@@ -1,0 +1,42 @@
+/* css/about/styles.css */
+
+.about-container {
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.text-container {
+    width: 40%; /* Adjust the width as needed */
+    position: absolute;
+    top: 18rem;
+    right: 48rem;
+    text-align: center;
+}
+
+.image-container {
+    width: 30%; /* Adjust the width as needed */
+    position: absolute;
+    top: 10rem;
+    left: 56rem;
+}
+
+h1 {
+    color: #acacac;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #acacac;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
