@@ -1,6 +1,6 @@
 import React from "react";
 
-function navbar() {
+function navbar() { //resposive navbar
   return (
     <div>
       <link rel="stylesheet" type="text/css" href="/css/navbar/styles.css" />
@@ -17,7 +17,7 @@ function navbar() {
           <a href="/home">HOME</a>
           <a href="/features">FEATURES</a>
           <a href="/about">ABOUT</a>
-          <a className="sign-out" href="/login">SIGN OUT</a>
+          <a className="sign-out" href="/login">SIGN OUT</a> 
         </div>
       </div>
     </div>

@@ -12,9 +12,9 @@ function Signup() {
     const navigate = useNavigate();
 
     const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        password: "",
+        name: " ",
+        email: " ",
+        password: " ",
     });
 
     const [error, setError] = useState("");
@@ -44,7 +44,7 @@ function Signup() {
             }
         } catch (error) {
             console.error("Error during signup:", error);
-            setError("An error occurred during signup");
+            setError("An technical error occurred during signup");
         }
     };
     
