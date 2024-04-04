@@ -1,0 +1,44 @@
+.home-image {
+    position: absolute;
+    top: 8rem;
+    width: 50%;
+  }
+  
+  /* Title styling */
+  h1 {
+    font-size: 2.5em; /* Adjust the font size */
+    color: #acacac; /* Title text color */
+    margin-bottom: 20px; /* Bottom margin for spacing */
+  }
+  
+  /* Paragraph styling */
+  p {
+    font-size: 1.2em; /* Adjust the font size */
+    color: #acacac; /* Paragraph text color */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    margin-bottom: 30px; /* Bottom margin for spacing */
+  }
+  
+  /* Additional styling for the home content container */
+  .home-content {
+    max-width: 500px; /* Set a maximum width for better readability */
+    margin-left: 55rem; /* Center the content horizontally */
+    margin-top: 6rem;
+    padding: 20px; /* Add padding for spacing around the content */
+    text-align:center;
+  }
+  
+  .start-now-button {
+    text-decoration: none;
+    border-radius: 50px; /* Adjust the radius to make it more circular */
+    padding: 15px 22px; /* Adjust padding as needed */
+    color: white !important; /* Font text color */
+    background-color: chartreuse; /* Background color */
+    display: inline-block; /* Make sure it respects the padding and border-radius */
+    transition: 0.5s;
+  }
+  
+  .start-now-button:hover {
+    background-color: #dfff00 !important;
+  }
+  
